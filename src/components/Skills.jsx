@@ -2,32 +2,32 @@ import "../styles/Skills.css"
 const skills = [
   {
     num: '001',
-    title: 'Building',
-    items: ['HTML5 & CSS3', 'JavaScript (ES6+)', 'React', 'Responsive design', 'Accessibility'],
+    title: 'Languages',
+    items: ['HTML5 & CSS3', 'JavaScript (ES6+)', 'Typescript'],
   },
   {
     num: '002',
-    title: 'Styling',
-    items: ['CSS animations', 'Tailwind CSS', 'Figma', 'Typography systems', 'Color theory'],
+    title: 'Framework',
+    items: ['React', 'Tailwind CSS', 'Bootstrap', 'Firebase', 'NextJS', 'Redux'],
   },
   {
     num: '003',
-    title: 'Creating',
-    items: ['Digital illustration', 'UI/UX thinking', 'Concept art', 'Visual storytelling'],
+    title: 'Tools & Platforms',
+    items: ['Netlify', 'Vercel', 'Github', 'Vite', 'Figma', 'VsCode'],
   },
 ]
 
 const Skills = () => {
   return (
-    <section id="skills" className="skills">
-      <p className="skills__label"><span>02</span> - What I Work With</p>
+    <section id="skills" className="skills"  data-aos="fade-up" data-aos-delay="100">
+      <p className="skills__label"  data-aos="fade-up" data-aos-delay="100"><span>02</span> - What I Work With</p>
 
       <div className="skill__grid">
         {skills.map(skill => (
-          <div key={skill.num} className="skill__cell">
-              <p className="skill__number">{skill.num}</p>
-              <h3 className="skill__title">{skill.title}</h3>
-              <ul className="skill__list">
+          <div key={skill.num} className="skill__cell"  data-aos="fade-up" data-aos-delay="200">
+              <p className="skill__number"  data-aos="fade-up" data-aos-delay="300">{skill.num}</p>
+              <h3 className="skill__title"  data-aos="fade-up" data-aos-delay="400">{skill.title}</h3>
+              <ul className="skill__list"  data-aos="fade-up" data-aos-delay="500">
                 {skill.items.map(item => (
                   <li key={item}>{item}</li>
                 ))}

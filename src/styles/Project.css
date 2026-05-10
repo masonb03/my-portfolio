@@ -66,6 +66,12 @@
   letter-spacing: 0.06em;
 }
 
+.project__text {
+  font-size: 14px;
+  color: var(--ink);
+  margin-top: 8px;
+}
+
 .project__arrow {
   font-size: 20px;
   color: var(--mid);

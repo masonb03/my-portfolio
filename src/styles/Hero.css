@@ -3,12 +3,13 @@
     align-items: center;
     grid-template-columns: 1fr 1fr;
     min-height: 100vh;
-    padding: 100px 48px 0 48px;
+    padding: 48px 0;
     border-bottom: 1px solid var(--faint);
 }
 
 .hero__left {
     padding-top: 80px;
+    margin-left: 100px;
 }
 
 .hero__tag {
