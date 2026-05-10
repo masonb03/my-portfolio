@@ -1,0 +1,74 @@
+.contact {
+  text-align: center;
+  padding: 160px 48px;
+  border-bottom: 1px solid var(--faint);
+}
+
+.contact__label {
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--mid);
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.contact__label span {
+  color: var(--green);
+}
+
+.contact__heading {
+  font-family: var(--serif);
+  font-size: clamp(44px, 7vw, 96px);
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+  margin-bottom: 48px;
+  font-weight: normal;
+}
+
+.contact__heading-italic {
+  font-style: italic;
+  color: var(--green);
+}
+
+.contact__email {
+  font-size: 15px;
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--ink);
+  padding-bottom: 3px;
+  letter-spacing: 0.04em;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.contact__email:hover {
+  color: var(--green);
+  border-color: var(--green);
+}
+
+.contact__socials {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 56px;
+}
+
+.contact__social-link {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--mid);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.contact__social-link:hover {
+  color: var(--ink);
+}
+
+.contact__social-link:hover:nth-child(n + 3) {
+  cursor: not-allowed;
+}

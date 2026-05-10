@@ -1,0 +1,70 @@
+.about {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 150px;
+    align-items: start;
+    padding: 120px 48px;
+    border-bottom: 1px solid var(--faint);
+}
+
+.about__heading h2 {
+    font-family: var(--serif);
+    font-size: clamp(36px, 4vw, 56px);
+    line-height: 1.02;
+    letter-spacing: -0.16px;
+    position: sticky;
+    top: 120px;
+}
+
+.about__heading--italic {
+  font-style: italic;
+  color: var(--mid);
+}
+
+.about__label {
+    font-size: 10px;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    color: var(--mid);
+    margin-bottom: 36px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.about__label span {
+  color: var(--green);
+}
+
+.about__text {
+    font-size: 15px;
+    line-height: 2;
+    margin-bottom: 24px;
+    max-width: 580px;
+}
+
+.about__interest {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 16px;
+}
+
+.interest__pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border: 1px solid var(--faint);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  color: var(--mid);
+  border-radius: 2px;
+  transition: border-color 0.2s, color 0.2s;
+  cursor: default;
+}
+
+.interest__pill:hover {
+  border-color: var(--green);
+  color: var(--green);
+}

@@ -1,0 +1,35 @@
+/* === FONTS === */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&display=swap');
+
+/* === TOKENS === */
+:root {
+  --cream:  #F5F1EA;
+  --ink:    #1A1814;
+  --mid:    #7A7065;
+  --faint:  rgba(26, 24, 20, 0.10);
+  --green:  #3D6B4F;
+  --red:    #C0392B;
+
+  --serif: 'DM Serif Display', Georgia, serif;
+  --mono:  'DM Mono', 'Courier New', monospace;
+}
+
+/* === RESET === */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--cream);
+  color: var(--ink);
+  font-family: var(--mono);
+  font-size: 14px;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
