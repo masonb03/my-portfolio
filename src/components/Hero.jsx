@@ -11,9 +11,6 @@ const Hero = () => {
             <p className="hero__description"  data-aos="fade-up" data-aos-delay="300">I build celan, thoughful, UI - and in my spare time I draw, game, and believe that dinosaurs were the peak of earth history. Now looking for my first frontend role.</p>
             <a href="#projects" className="hero__cta"  data-aos="fade-up" data-aos-delay="400">View my work →</a>
         </div>
-        <div className="hero__right"  data-aos="fade-up" data-aos-delay="100">
-            <p className="hero__placeholder">🦕</p>
-        </div>
     </section>
   )
 }
