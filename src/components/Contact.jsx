@@ -11,8 +11,13 @@ function Contact() {
         <span className="contact__heading-italic">hi.</span>
       </h2>
 
-      <a href="mailto:you@email.com" className="contact__email"  data-aos="fade-up" data-aos-delay="300">
-        you@email.com
+      <a 
+      href="https://mail.google.com/mail/?view=cm&to=bevinsjm@gmail.com"
+      className="contact__email"  
+      target="_blank"
+      data-aos="fade-up" 
+      data-aos-delay="300">
+        bevinsjm@gmail.com
       </a>
 
       <div className="contact__socials"  data-aos="fade-up" data-aos-delay="400">
