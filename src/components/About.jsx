@@ -32,7 +32,7 @@ const About = () => {
     <>
     <section id="about" className="about">
       <div className="wrap">
-        <p className="about__label"  data-aos="fade-up" data-aos-delay="100"><span>01</span> — Who I Am</p>
+        <p className="sec-tag"  data-aos="fade-up" data-aos-delay="100"><span>01</span> — Who I Am</p>
           <div className="about__grid">
             <div className="about__heading"  data-aos="fade-up" data-aos-delay="200">
                 <h2>A bit<br />about <br /> <em>me.</em></h2>

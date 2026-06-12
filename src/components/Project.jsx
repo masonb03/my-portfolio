@@ -2,15 +2,15 @@ import '../styles/Project.css'
 
 function Projects() {
   return (
-    <section className="work" id="work">
+    <section className="work" id="work" data-aos="fade-up" data-aos-delay="0">
   <div className="wrap">
-    <div className="sec-tag reveal">04 — Selected work</div>
-    <div className="work-head">
+    <div className="sec-tag reveal" data-aos="fade-up" data-aos-delay="100">04 — Selected work</div>
+    <div className="work-head" data-aos="fade-up" data-aos-delay="200">
       <h2 className="reveal">Things I've <em>shipped</em>.</h2>
-      <span className="work-count reveal delay-1">2024 — 2026 · Four featured</span>
+      <span className="work-count reveal delay-1" data-aos="fade-up" data-aos-delay="300">2024 — 2026 · Four featured</span>
     </div>
 
-    <a className="project reveal" href="https://github.com/masonb03/skinstric" target="_blank" rel="noopener" data-cursor="link">
+    <a className="project reveal" href="https://github.com/masonb03/skinstric" target="_blank" rel="noopener" data-cursor="link" data-aos="fade-up" data-aos-delay="400">
       <div className="p-num">001</div>
       <div className="p-body">
         <h3>Skinstric</h3>
@@ -32,7 +32,7 @@ function Projects() {
       </div>
     </a>
 
-    <a className="project reveal" href="https://github.com/masonb03/dinocomp" target="_blank" rel="noopener" data-cursor="link">
+    <a className="project reveal" href="https://github.com/masonb03/dinocomp" target="_blank" rel="noopener" data-cursor="link" data-aos="fade-up" data-aos-delay="500">
       <div className="p-num">002</div>
       <div className="p-body">
         <h3>Dinocomp <em style={{ fontFamily: 'var(--serif)', fontStyle: 'italic', color: 'var(--sage)' }}></em></h3>
@@ -53,7 +53,7 @@ function Projects() {
       </div>
     </a>
 
-    <a className="project reveal" href="https://github.com/masonb03/summarist" target="_blank" rel="noopener" data-cursor="link">
+    <a className="project reveal" href="https://github.com/masonb03/summarist" target="_blank" rel="noopener" data-cursor="link" data-aos="fade-up" data-aos-delay="600">
       <div className="p-num">003</div>
       <div className="p-body">
         <h3>Summarist</h3>
@@ -73,7 +73,7 @@ function Projects() {
       </div>
     </a>
 
-    <a className="project reveal" href="https://github.com/masonb03/Movie_Mayhem_2.0" target="_blank" rel="noopener" data-cursor="link">
+    <a className="project reveal" href="https://github.com/masonb03/Movie_Mayhem_2.0" target="_blank" rel="noopener" data-cursor="link" data-aos="fade-up" data-aos-delay="700">
       <div className="p-num">004</div>
       <div className="p-body">
         <h3>Movie Mayhem</h3>
