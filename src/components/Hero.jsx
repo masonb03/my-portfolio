@@ -38,7 +38,7 @@ const formatTime = time.toLocaleTimeString([], { hour: '2-digit', minute: '2-dig
                     <span className="dot"></span>
                     <span>Open to junior frontend roles · responding within 24h</span>
                   </span>
-                  <a href="#projects" className="cta">
+                  <a href="#work" className="cta">
                     <span>View selected work</span>
                     <span className="arrow">→</span>
                   </a>
