@@ -7,6 +7,7 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact"
 import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
+import Process from "./components/Process";
 
 function App() {
 
@@ -63,6 +64,7 @@ function App() {
       <Skills />
       <Projects />
       <Marquee />
+      <Process />
       <Contact />
       <Footer />
     </>

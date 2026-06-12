@@ -2,32 +2,24 @@ import '../styles/Contact.css'
 
 function Contact() {
   return (
-    <section id="contact" className="contact"  data-aos="fade-up" data-aos-delay="100">
+    <section className="contact" id="contact">
+  <div className="wrap">
+    <div className="small reveal">06 — Let's connect</div>
+    <h2 className="reveal delay-1">Say<em>hi.</em></h2>
 
-      <p className="contact__label"  data-aos="fade-up" data-aos-delay="100"><span>04</span> — Let's connect</p>
+    <button className="email-btn" id="emailBtn" data-cursor="link" type="button">
+      <span id="emailText"><a href="/cdn-cgi/l/email-protection" className="__cf_email__" data-cfemail="2c4e495a45425f46416c4b414d4540024f4341">bevinsjm@gmail.com</a></span>
+      <span className="copy-state" id="emailState">click to copy</span>
+    </button>
 
-      <h2 className="contact__heading"  data-aos="fade-up" data-aos-delay="200">
-        Say<br />
-        <span className="contact__heading-italic">hi.</span>
-      </h2>
-
-      <a 
-      href="https://mail.google.com/mail/?view=cm&to=bevinsjm@gmail.com"
-      className="contact__email"  
-      target="_blank"
-      data-aos="fade-up" 
-      data-aos-delay="300">
-        bevinsjm@gmail.com
-      </a>
-
-      <div className="contact__socials"  data-aos="fade-up" data-aos-delay="400">
-        <a href="https://github.com/masonb03" className="contact__social-link" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/mason-bevins-448341347/" className="contact__social-link" target="_blank">LinkedIn</a>
-        <a href="#" className="contact__social-link">Dribbble</a>
-        <a href="#" className="contact__social-link">Twitter / X</a>
-      </div>
-
-    </section>
+    <div className="socials reveal delay-2">
+      <a href="https://github.com/masonb03" target="_blank" rel="noopener" data-cursor="link">GitHub</a>
+      <a href="https://www.linkedin.com/in/mason-bevins-448341347" target="_blank" rel="noopener" data-cursor="link">LinkedIn</a>
+      <a href="#" data-cursor="link">Dribbble</a>
+      <a href="#" data-cursor="link">Discord</a>
+    </div>
+  </div>
+</section>
   )
 }
 

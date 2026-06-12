@@ -1,0 +1,41 @@
+/* PROCESS / PHILOSOPHY */
+  section.process{
+    padding:140px 0;
+  }
+  .process-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:80px;
+  }
+  @media (max-width:900px){ .process-grid{ grid-template-columns:1fr; gap:40px; } }
+  .process-head{
+    font-family:var(--serif);
+    font-size:clamp(48px, 7vw, 88px);
+    line-height:.95;
+    font-weight:600;
+    letter-spacing:-.025em;
+  }
+  .process-head em{ font-style:italic; color:var(--sage); font-weight:400; }
+  .process-list{ list-style:none; }
+  .process-list li{
+    display:grid;
+    grid-template-columns:60px 1fr;
+    gap:24px;
+    padding:22px 0;
+    border-bottom:1px solid var(--cream-line);
+  }
+  .process-list li:last-child{ border-bottom:none; }
+  .process-list .step-num{
+    font-family:var(--serif);
+    font-style:italic;
+    font-size:22px;
+    color:var(--sage);
+  }
+  .process-list h4{
+    font-family:var(--serif);
+    font-weight:600;
+    font-size:20px;
+    margin-bottom:6px;
+    letter-spacing:-.01em;
+  }
+  .process-list p{ color:var(--ink-soft); font-size:13px; max-width:48ch; }
