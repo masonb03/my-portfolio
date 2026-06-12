@@ -89,9 +89,9 @@ const About = () => {
       </div>
 
       <div className="now-card span3" data-aos="fade-up" data-aos-delay="200">
-        <div className="label">Now reading</div>
-        <h4>Refactoring UI</h4>
-        <p>Adam Wathan &amp; Steve Schoger. Re-read, this time with notes.</p>
+        <div className="label">Now playing</div>
+        <h4>The Forest</h4>
+        <p>Surviving the troubles of nature and discovering deep lore. Kind of like coding.</p>
       </div>
 
       <div className="now-card span4" data-aos="fade-up" data-aos-delay="100">
